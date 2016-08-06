@@ -1,0 +1,67 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: 'Rum Raisin', sans-serif;
+}
+
+/** Header **/
+#NavbarHeader{
+	float: left;
+}
+#header-nav{
+	background-color:  #333333;
+}
+
+.navbar-brand h2 { /* Restaurant name */
+  color: #f2f2f2;
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight:;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  
+ 
+}
+.navbar-header .icon-bar{
+	border: 2px solid white;
+}
+.navbar-header button.navbar-toggle{
+	padding:8px 7px;
+}
+#Main-element{
+  background-color: #ccebff;
+  border: 50px solid white;
+}
+h1{
+  padding-top:3%;
+}
+hr{
+  border:1px solid black;
+  margin:0;
+}
+#nav-list{
+  font-size: 1.5em;
+
+}
+.dropdown-text{
+  color:black;
+}
+.navbar-toggle{
+  border: 1px solid white;
+}
+
+/**End of Header **/
+@media (max-width: 767px) {
+  h1{
+    padding-top: 10%
+  }
+  #collapsable-nav{
+  background-color: #ccffcc;
+  }
+}
+
